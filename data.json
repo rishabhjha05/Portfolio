@@ -1,0 +1,90 @@
+{
+  "projects": [
+    {
+      "src": "./media/dumyLearn.png",
+      "title": "Dummy Hub",
+      "description": "A learning platform designed to help users explore educational content through a clean and simple interface. Built with a focus on responsive design and intuitive navigation.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "checkOutLink": "https://dummylearnohub.netlify.app/"
+    },
+    {
+      "src": "./media/preview.jpg",
+      "title": "Globio",
+      "description": "A modern web project focused on exploring places and information around the world. It features a responsive interface with an emphasis on visual presentation and user experience.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "checkOutLink": "https://globia.netlify.app"
+    },
+    {
+      "src": "./media/taskumi.png",
+      "title": "Taskumi",
+      "description": "A task management application designed to help users organize and keep track of their daily tasks. It provides a simple interface for managing tasks efficiently.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "checkOutLink": "https://taskumi.netlify.app/"
+    },
+    {
+      "src": "./media/scisee.png",
+      "title": "Scientific Calculator",
+      "description": "A responsive scientific calculator built with HTML, CSS, and JavaScript. It supports arithmetic operations, square roots, powers, π, parentheses, decimals, and dynamic expression editing.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "checkOutLink": "https://scisee.netlify.app/"
+    },
+    {
+      "src": "./media/regex.png",
+      "title": "Regex Tester",
+      "description": "A web-based tool for testing and experimenting with regular expressions. Users can enter patterns and test them against text to quickly understand and validate regular expression behavior.",
+      "techStack": ["HTML", "CSS", "JavaScript", "Regular Expressions"],
+      "checkOutLink": "https://regextest.netlify.app/"
+    },
+    {
+      "src": "./media/markdown.png",
+      "title": "Markdown to HTML Converter",
+      "description": "A simple web-based tool that converts Markdown syntax into HTML in real time. It provides a convenient editor and preview interface for writing Markdown and viewing the generated HTML output.",
+      "techStack": ["HTML", "CSS", "JavaScript"],
+      "checkOutLink": "https://markdownconvertorr.netlify.app/"
+    },
+    {
+      "src": "./media/norman.png",
+      "title": "Norman Borlaug Tribute Page",
+      "description": "A responsive tribute page dedicated to Norman Borlaug, highlighting his life, achievements, and contributions to agriculture and global food security.",
+      "techStack": ["HTML", "CSS"],
+      "checkOutLink": "https://normanborlaug-biography.netlify.app/"
+    },
+    {
+      "src": "./media/fccMagzine.png",
+      "title": "FCC Magazine",
+      "description": "A magazine-style webpage built with modern HTML and CSS layout techniques. The project focuses on creating a structured and responsive editorial-style design.",
+      "techStack": ["HTML", "CSS"],
+      "checkOutLink": "https://fccmagzine.netlify.app/"
+    },
+    {
+      "src": "./media/pixelreach.png",
+      "title": "Pixel Reach",
+      "description": "A responsive digital marketing landing page designed to showcase lead-generation and online marketing services. The site features service sections, customer testimonials, marketing strategies, blog content, and a contact form, with a clean and professional layout focused on user engagement.",
+      "techStack": ["HTML", "CSS", "BOOTSTRAP"],
+      "checkOutLink": "https://pixelreach.netlify.app/"
+    }
+  ],
+  "certificates": [
+    {
+      "src": "./media/decodeDSA.png",
+      "title": "Decode DSA",
+      "description": "A certificate demonstrating the completion of a Data Structures and Algorithms program, covering fundamental concepts and problem-solving techniques used in programming.",
+      "techStack": ["Data Structures", "Algorithms", "Problem Solving"],
+      "checkOutLink": "https://cdn.pwskills.com/learn/certificates/34652439-f9fd-461f-8f47-3f1135d400a4.pdf"
+    },
+    {
+      "src": "./media/responsiveCert.png",
+      "title": "Responsive Web Design",
+      "description": "A certification demonstrating knowledge of responsive web development using HTML and CSS, including modern layouts, accessibility, and responsive design principles.",
+      "techStack": ["HTML", "CSS", "Responsive Design", "Accessibility"],
+      "checkOutLink": "https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/responsive-web-design-v9"
+    },
+    {
+      "src": "./media/legacyCert.png",
+      "title": "Legacy Responsive Web Design",
+      "description": "A certification demonstrating foundational skills in HTML, CSS, responsive layouts, and building websites that adapt to different screen sizes.",
+      "techStack": ["HTML", "CSS", "Responsive Design"],
+      "checkOutLink": "https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/responsive-web-design"
+    }
+  ]
+}
