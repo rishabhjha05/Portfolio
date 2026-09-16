@@ -1,19 +1,3 @@
-const projectLinks = [
-  'https://dummylearnohub.netlify.app/',
-  'https://globia.netlify.app',
-  'https://taskumi.netlify.app/',
-  'https://scisee.netlify.app/',
-  'https://regextest.netlify.app/',
-  'https://markdownconvertorr.netlify.app/',
-  'https://normanborlaug-biography.netlify.app/',
-  'https://fccmagzine.netlify.app/',
-  'https://pixelreach.netlify.app/',
-];
-const certificateLinks = [
-  'https://cdn.pwskills.com/learn/certificates/34652439-f9fd-461f-8f47-3f1135d400a4.pdf',
-  'https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/responsive-web-design-v9',
-  'https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/responsive-web-design',
-];
 const profileLinks = [
   'https://www.linkedin.com/in/rishabh-kumar-jha/',
   'https://github.com/rishabhjha05',
@@ -37,7 +21,7 @@ const projects = document.querySelectorAll('.project');
 projects.forEach((project) => {
   project.addEventListener('dblclick', (e) => {
     const idx = parseInt(project.id.match(/\d+$/)[0])-1;
-    window.open(`${projectLinks[idx]}`, '_blank');
+    window.open(`${Data.projects[idx].checkOutLink}`, '_blank');
   });
 });
 
@@ -45,7 +29,7 @@ const certificates = document.querySelectorAll('.certificate');
 certificates.forEach((certificate) => {
   certificate.addEventListener('dblclick', (e) => {
     const idx = parseInt(certificate.id.match(/\d+$/)[0]) - 1;
-    window.open(`${certificateLinks[idx]}`, '_blank');
+    window.open(`${Data.certificates[idx].checkOutLink}`, '_blank');
   });
 });
 const body = document.querySelector('body');
