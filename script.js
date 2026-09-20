@@ -63,9 +63,10 @@ const crossPopUp = document.querySelector('#popUp');
 crossPopUp.addEventListener('click', () => popUp.classList.add('hide'));
 body.addEventListener('click', (e) => {
   if (e.target.closest('.project')) {
-    const projectId = e.target.closest('.project').id.match(/\d$/)[0];
+    const projectId = e.target.closest('.project').id.match(/\d*$/);
     const proj = Data.projects[projectId - 1];
     let techStack = '';
+    console.log(projectId);
     proj.techStack.forEach((tech) => (techStack += `<span>${tech}</span>`));
 
     console.log(proj);
@@ -82,7 +83,7 @@ body.addEventListener('click', (e) => {
     console.log(e.target.closest('.project'));
     popUp.classList.remove('hide');
   } else if (e.target.closest('.certificate')) {
-    const certificateId = e.target.closest('.certificate').id.match(/\d$/)[0];
+    const certificateId = e.target.closest('.certificate').id.match(/\d*$/)[0];
     const cert = Data.certificates[certificateId - 1];
     let techStack = '';
     cert.techStack.forEach((tech) => (techStack += `<span>${tech}</span>`));
