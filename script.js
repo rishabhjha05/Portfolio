@@ -17,10 +17,35 @@ async function getData() {
 const Data = await getData();
 console.log(Data);
 
+const projectContainer = document.querySelector('.projects');
+const certificateContainer=document.querySelector('.certificates');
+Data.projects.forEach((project) => {
+  projectContainer.innerHTML += `
+  <div class="project" id=${project.projectId}>
+    <img src=${project.src} alt="${project.title} preveiw" />
+      <h3>
+        <span class="tags">&lt; </span>${project.title}<span class="tags">
+          /&gt;</span>
+      </h3>
+  </div>
+  `;
+});
+
+Data.certificates.forEach((certificate)=>{
+  certificateContainer.innerHTML+=`
+    <div class="certificate" id=${certificate.certificateId}>
+      <img src=${certificate.src} alt="${certificate.title} Certificate" />
+        <h3>
+          <span class="tags">&lt; </span>${certificate.title}<span class="tags">/&gt;</span>
+        </h3>
+    </div>
+  `
+})
+
 const projects = document.querySelectorAll('.project');
 projects.forEach((project) => {
   project.addEventListener('dblclick', (e) => {
-    const idx = parseInt(project.id.match(/\d+$/)[0])-1;
+    const idx = parseInt(project.id.match(/\d+$/)[0]) - 1;
     window.open(`${Data.projects[idx].checkOutLink}`, '_blank');
   });
 });
@@ -74,7 +99,8 @@ body.addEventListener('click', (e) => {
     `;
     console.log(e.target.closest('#popUp'));
     popUp.classList.remove('hide');
-  } else if(!e.target.closest('#popUp') || e.target.closest('.cross-popup')) popUp.classList.add('hide');
+  } else if (!e.target.closest('#popUp') || e.target.closest('.cross-popup'))
+    popUp.classList.add('hide');
   else popUp.classList.remove('hide');
 });
 
@@ -119,10 +145,10 @@ function TypingOn(obj, word) {
     if (i == word.length) backTyping = true;
     if (!backTyping) obj.textContent += word[i++];
     else {
-      obj.textContent = word.slice(0, i-1);
+      obj.textContent = word.slice(0, i - 1);
       i--;
     }
     if (i == 0) backTyping = false;
   }, 250);
 }
-TypingOn(contactChangingSpan,'...')
+TypingOn(contactChangingSpan, '...');
