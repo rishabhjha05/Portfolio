@@ -155,6 +155,7 @@ body {
         font-size: 1.1rem;
         align-self: center;
         justify-self: flex-end;
+        text-align: center;
       }
       transition: transform 0.2s ease-in-out;
       -webkit-transition: transform 0.2s ease-in-out;
