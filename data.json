@@ -85,6 +85,20 @@
       "description": "A certification demonstrating foundational skills in HTML, CSS, responsive layouts, and building websites that adapt to different screen sizes.",
       "techStack": ["HTML", "CSS", "Responsive Design"],
       "checkOutLink": "https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/responsive-web-design"
+    },
+    {
+      "src": "./media/javascriptCert.png",
+      "title": "JavaScript Developer",
+      "description": "A certification demonstrating proficiency in JavaScript fundamentals, ES6+, functional programming, object-oriented programming, DOM manipulation, and asynchronous JavaScript.",
+      "techStack": [
+        "JavaScript",
+        "ES6+",
+        "DOM",
+        "Functional Programming",
+        "OOP",
+        "Async JavaScript"
+      ],
+      "checkOutLink": "https://www.freecodecamp.org/certification/fcc-fcae301f-a937-4c6d-8861-77cac3ac4a4b/javascript-v9"
     }
   ]
 }
